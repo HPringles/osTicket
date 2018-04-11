@@ -212,7 +212,7 @@ extends Avatar {
         $this->email = $user->getEmail();
         // $this->d = $imageset;
         // Changed for new default avatar
-        $this->d = 'https%3A%2F%2Fstage-9.co.uk%2Fwp-content%2Fuploads%2F2017%2F12%2Fstage9projectpatch.png'
+        $this->d = 'https%3A%2F%2Fsupport.stage-9.co.uk%2Fimages%2Fstage9projectpatch.png'
     }
 
     function setSize($size) {
