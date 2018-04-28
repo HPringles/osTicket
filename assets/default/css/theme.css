@@ -12,7 +12,7 @@ body {
 }
 body {
   font-family: "Helvetica Neue", sans-serif;
-  color: #000;
+  color: #303030;
 }
 input,
 select,
@@ -20,6 +20,11 @@ textarea {
   font-family: "Helvetica Neue", sans-serif;
   color: #111;
 }
+
+.faded-kb {
+  color: #bcbcbc;
+}
+
 b,
 strong {
   font-weight: bolder;
@@ -116,7 +121,6 @@ fieldset {
 a, .link {
   color: #00AEEF;
   text-decoration: none;
-  display: inline-block;
   margin-bottom: 1px;
 }
 a:hover, .link:hover {
@@ -290,7 +294,7 @@ h2, .subject {
   background-color: #0299d2;
 }
 body {
-  background: #101010;
+  background: #000000;
 }
 #container {
   background: #3d3d3d;
@@ -404,6 +408,7 @@ body {
   color:#00AEEF;
   font-weight: bold;
 }
+
 #redactor-editor {
 	color:#000;
 }
