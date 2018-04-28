@@ -327,3 +327,8 @@ input[type=submit]:active {
     color: var(--link-color);
     font-weight: bold;
 }
+
+.custom-data th, .custom-data td {
+	padding: 3px;
+	vertical-align: top;
+}
