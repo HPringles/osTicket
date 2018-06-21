@@ -133,6 +133,7 @@ if (($all_langs = Internationalization::getConfiguredSystemLanguages())
         <?php
         if($nav){ ?>
         <ul id="nav" class="flush-left">
+            <li><a href="https://www.stage-9.co.uk/" class="home">Go To Main Site</a></li>
             <?php
             if($nav && ($navs=$nav->getNavLinks()) && is_array($navs)){
                 foreach($navs as $name =>$nav) {
